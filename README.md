@@ -1,4 +1,7 @@
 # Text-De-stylization
+### Model Link
+https://drive.google.com/file/d/1TzAjdQK6_VDp9qG7Yy9mysAm4FK2z7oJ/view?usp=sharing 
+
 Text De-stylization Based on Self-Supervised Mechanism
 
 Recent advancements in Natural Language Processing (NLP) have ushered in a new era of textual style transfer (TST), a domain aimed at altering textual attributes such as tone and sentiment while preserving the content's essence. This study introduces a creative framework that employs a dual-component architecture consisting of a classifier and a generator to achieve text de-stylization, particularly sentiment neutralization. The classifier, built upon the BERT model, serves as a dynamic loss function guiding the generator, constructed on a Transformer-based encoder-decoder framework, to produce sentiment-neutral text. Our method leverages a self-supervised mechanism, enabling the generation of target text without reliance on parallel corpora, thereby addressing the limitations of existing TST methodologies. We preprocessed datasets from Stanford Sentiment Treebank-5 (SST-5) and IMDb movie reviews and employed them for training the classifier and generator, respectively. Preliminary results demonstrate the model's proficiency in preserving semantic integrity while effectively neutralizing sentiment. Future work envisions expanding this framework to enable text stylization across a spectrum of discursive contexts, enhanced by deep learning architectures and an iterative feedback mechanism for user-driven refinement.
